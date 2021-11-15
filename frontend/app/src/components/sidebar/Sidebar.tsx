@@ -121,7 +121,7 @@ export const Sidebar: React.FC<Props> = ({
           </SidebarHeader>
           <SidebarContent>
             <Box height="calc(100vh - 72px)" overflow="auto">
-              
+              <Menu iconShape="square">
                 <MenuItem
                   className={clsx({
                     highlight: location.pathname === '/trade',

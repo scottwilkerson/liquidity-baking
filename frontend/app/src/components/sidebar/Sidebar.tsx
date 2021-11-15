@@ -5,9 +5,10 @@ import React from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useDispatch } from 'react-redux';
 import { ReactComponent as Trade } from '../../assets/images/sidebar/trade.svg';
+import { ReactComponent as Faq } from '../../assets/images/sidebar/faq.svg';
 import { ReactComponent as ArrowLeft } from '../../assets/images/sidebar/arrowleft.svg';
 import { ReactComponent as ArrowRight } from '../../assets/images/sidebar/arrowright.svg';
-//import { ReactComponent as Logo } from '../../assets/images/sidebar/ctez.svg';
+// import { ReactComponent as Logo } from '../../assets/images/sidebar/ctez.svg';
 import 'react-pro-sidebar/dist/css/styles.css';
 import { openModal } from '../../redux/slices/UiSlice';
 import { MODAL_NAMES } from '../../constants/modals';
@@ -96,7 +97,7 @@ export const Sidebar: React.FC<Props> = ({
             <Flex alignItems="center" justifyContent="center" padding="16px 0px 16px 20px">
               <Box>
                 <NavLink to="/">
-                  
+                  LB
                 </NavLink>
               </Box>
               <Text
@@ -172,12 +173,6 @@ export const Sidebar: React.FC<Props> = ({
                   icon={<Faq />}
                 >
                   <Link to="/faq">FAQ</Link>
-                </MenuItem>
-                <MenuItem
-                  className={clsx({
-                    hide: collapsed,
-                  })}
-                >
                 </MenuItem>
               </Menu>
             </Box>

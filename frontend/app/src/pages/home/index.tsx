@@ -32,7 +32,8 @@ const HomePage: React.FC = () => {
             Tezos Liquidity Baking
           </Text>
           <Text opacity="0.5" color={textcolor} fontSize="md" pr={15}>
-            Liquidity baking allows you to earn rewards directly from the Tezos protocol for staking tzBTC and XTZ.  2.5 XTZ per block (every ~30 seconds) gets added to the pool
+            Liquidity baking allows you to earn rewards directly from the Tezos protocol for staking
+            tzBTC and XTZ.  2.5 XTZ per block (every ~30 seconds) gets added to the pool
           </Text>
           <HStack
             mt={10}

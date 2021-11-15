@@ -96,9 +96,7 @@ export const Sidebar: React.FC<Props> = ({
           <SidebarHeader>
             <Flex alignItems="center" justifyContent="center" padding="16px 0px 16px 20px">
               <Box>
-                <NavLink to="/">
-                  LB
-                </NavLink>
+                <NavLink to="/">LB</NavLink>
               </Box>
               <Text
                 flexGrow={1}

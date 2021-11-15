@@ -1,1 +1,1 @@
-# CTez Frontend app
+# LB Frontend app

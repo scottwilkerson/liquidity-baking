@@ -24,24 +24,15 @@ const HomePage: React.FC = () => {
           alignItems={largerScreen ? 'left' : 'center'}
         >
           <Text
-            opacity="0.5"
-            color={textcolor}
-            fontSize={largerScreen ? 'sm' : 'md'}
-            mt={largerScreen ? '' : '185px'}
-          >
-            ctez, a Tezos public good
-          </Text>
-          <Text
             color={textcolor}
             fontSize={largerScreen ? '48px' : '26px'}
             as="strong"
             lineHeight="50px"
           >
-            Unlock liquidity on Tezos and stay in control
+            Tezos Liquidity Baking
           </Text>
           <Text opacity="0.5" color={textcolor} fontSize="md" pr={15}>
-            ctez is a collateralized version of tez allowing you to use Tezos DeFi and delegate your
-            tez simultaneously.
+            Liquidity baking allows you to earn rewards directly from the Tezos protocol for staking tzBTC and XTZ.  2.5 XTZ per block (every ~30 seconds) gets added to the pool
           </Text>
           <HStack
             mt={10}
